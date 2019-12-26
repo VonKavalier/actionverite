@@ -1,6 +1,6 @@
 function get_gage(list){
     $('.progress').show();
-    $('#gage').hide();
+    $('#gages').hide();
 
     var timerId, percent;
 
@@ -16,15 +16,14 @@ function get_gage(list){
         $('.progress-bar').html("Calcul de l'humliation en cours... " + percent + '%');
 
         if (percent >= 100) {
-            clearInterval(timerId);
+            clearInterval(timerId); 
             $('#btn').attr('disabled', false);
-            $('.progress-bar').removeClass('progress-bar-animated progress-bar-striped active');
             $('.progress').hide();
-            var gage = list.random();
-            $('#gage').show();
-            document.getElementById('gage').innerHTML = gage;
+            $('#gages').show();
+            document.getElementById('gage1').innerHTML = list.random();
+            document.getElementById('gage2').innerHTML = list.random();
             $('.btn').attr('disabled', false);
-            $('.progress-bar').css('width', '0px').addClass('progress-bar-animated active');
+            $('.progress-bar').css('width', '0px');
         }
     }, 80);
 }

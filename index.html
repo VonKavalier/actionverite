@@ -4,6 +4,7 @@
         <meta charset="UTF-8"> 
         <title>Action / Vérité</title>
         <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     </head>
     <body>
         <div class="container">
@@ -13,7 +14,7 @@
             </p>
             <div class="card-deck row-cols-1 row-cols-md-2 mb-3">
                 <div class="card">
-                    <div class="card-header">Actions</div>
+                    <div class="card-header">Action</div>
                     <div class="card-body row">
                         <div class="col-sm">
                             <button type="button" class="btn btn-info" id="" onclick="get_gage(action_soft)">Action Soft</button>
@@ -27,16 +28,16 @@
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card-header">Vérités</div>
+                    <div class="card-header">Vérité</div>
                     <div class="card-body row">
                         <div class="col-sm">
-                            <button type="button" class="btn btn-info" onclick="get_gage(verite_soft)">Verite Soft</button>
+                            <button type="button" class="btn btn-info" onclick="get_gage(verite_soft)">Vérité Soft</button>
                         </div>
                         <div class="col-sm">
-                            <button type="button" class="btn btn-warning" onclick="get_gage(verite_medium)">Verite Medium</button>
+                            <button type="button" class="btn btn-warning" onclick="get_gage(verite_medium)">Vérité Medium</button>
                         </div>
                         <div class="col-sm">
-                            <button type="button" class="btn btn-danger" onclick="get_gage(verite_hard)">Verite Hard</button>
+                            <button type="button" class="btn btn-danger" onclick="get_gage(verite_hard)">Vérité Hard</button>
                         </div>
                     </div>
                 </div>
@@ -46,16 +47,19 @@
                     Gage
                 </div>
                 <div class="card-body">
-                    <p id="gage"></p>
+                    <div id="gages">
+                        <p id="gage1"></p>
+                        <h4 class="text-center">OU</h4>
+                        <p id="gage2"></p>
+                    </div>
                     <div class="progress" style="height: 30px;">
-                        <div class="progress-bar bg-success" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">Calcul de l'humiliation en cours...</div>
+                        <div class="progress-bar bg-success progress-bar-animated active" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">Calcul de l'humiliation en cours...</div>
                     </div>
                 </div>
             </div>
         </div>
     </body>
     <script src="assets/jquery-3.4.1.min.js"></script> 
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="assets/js/action_list.js"></script> 
     <script src="assets/js/verite_list.js"></script> 
     <script src="assets/js/main.js"></script> 
