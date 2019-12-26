@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8"> 
         <title>Action / Vérité</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     </head>
     <body>
         <div class="container">
@@ -10,7 +11,7 @@
             <h3>Bienvenue dans une version améliorée de notre "Action ou Vérité" ! </h3>
             <h4 class="text-muted">Lancez le dé et cliquez sur le bouton correspondant</h4>
             </p>
-            <div class="card-deck row-cols-1 row-cols-md-2">
+            <div class="card-deck row-cols-1 row-cols-md-2 mb-3">
                 <div class="card">
                     <div class="card-header">Actions</div>
                     <div class="card-body row">
@@ -40,17 +41,14 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="card text-white bg-dark">
-                        <div class="card-header">
-                            Gage
-                        </div>
-                        <div class="card-body" id="gage">
-                            <div class="progress" id="progressbar" style="height: 30px;">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">Calcul de l'humiliation en cours...</div>
-                            </div>
-                        </div>
+            <div class="card text-white bg-dark">
+                <div class="card-header">
+                    Gage
+                </div>
+                <div class="card-body">
+                    <p id="gage"></p>
+                    <div class="progress" style="height: 30px;">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">Calcul de l'humiliation en cours...</div>
                     </div>
                 </div>
             </div>
