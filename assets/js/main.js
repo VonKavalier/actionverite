@@ -3,6 +3,7 @@ function get_gage(list){
     $('#gages').hide();
 
     var timerId, percent;
+    var loadingMessage = loading_list.random();
 
     // reset progress bar
     percent = 0;
@@ -13,7 +14,7 @@ function get_gage(list){
         // increment progress bar
         percent += 1;
         $('.progress-bar').css('width', percent + '%');
-        $('.progress-bar').html("Calcul de l'humliation en cours... " + percent + '%');
+        $('.progress-bar').html(loadingMessage + " " + percent + '%');
 
         if (percent >= 100) {
             clearInterval(timerId); 
