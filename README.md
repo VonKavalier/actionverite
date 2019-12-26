@@ -4,4 +4,4 @@ Action / Vérité basique. Simplement pour avoir un support plus pratique que ce
 ## À faire
 
 - [ ] Rajouter les gages
-- [ ] Utiliser un bouton reset
+- [x] Utiliser un bouton reset (Reset automatique, pas besoin d'un bouton pour ça)
