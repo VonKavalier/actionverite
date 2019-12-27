@@ -1,3 +1,60 @@
 #gages {
     display: none;
 }
+
+.btn-perso {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-blue-soft {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-blue-medium {
+    color: #fff;
+    background-color: #1783b8;
+    border-color: #1783b8;
+}
+
+.btn-blue-hard {
+    color: #fff;
+    background-color: #1756b8;
+    border-color: #1756b8;
+}
+
+.btn-orange-soft {
+    color: #000;
+    background-color: #eae600;
+    border-color: #eae600;
+}
+
+.btn-orange-medium {
+    color: #fff;
+    background-color: #ea9a00;
+    border-color: #ea9a00;
+}
+
+.btn-orange-hard {
+    color: #fff;
+    background-color: #ea5800;
+    border-color: #ea5800;
+}
+
