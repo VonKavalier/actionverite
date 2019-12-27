@@ -7,7 +7,7 @@ function get_gage(list){
 
     // reset progress bar
     percent = 0;
-    $('.btn').attr('disabled', true);
+    $('.btn-perso').attr('disabled', true);
 
     timerId = setInterval(function() {
 
@@ -18,12 +18,11 @@ function get_gage(list){
 
         if (percent >= 100) {
             clearInterval(timerId); 
-            $('#btn').attr('disabled', false);
             $('.progress').hide();
             $('#gages').show();
             document.getElementById('gage1').innerHTML = list.random();
             document.getElementById('gage2').innerHTML = list.random();
-            $('.btn').attr('disabled', false);
+            $('.btn-perso').attr('disabled', false);
             $('.progress-bar').css('width', '0px');
         }
     }, 80);
