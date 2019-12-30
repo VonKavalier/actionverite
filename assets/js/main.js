@@ -1,4 +1,5 @@
 function get_gage(list){
+    $("html, body").animate({ scrollTop: $(document).height() }, 1000);
     $('.progress').show();
     $('#gages').hide();
 
@@ -12,7 +13,7 @@ function get_gage(list){
     timerId = setInterval(function() {
 
         // increment progress bar
-        percent += 1;
+        percent += 4;
         $('.progress-bar').css('width', percent + '%');
         $('.progress-bar').html(loadingMessage + " " + percent + '%');
 
@@ -24,8 +25,9 @@ function get_gage(list){
             document.getElementById('gage2').innerHTML = list.random();
             $('.btn-perso').attr('disabled', false);
             $('.progress-bar').css('width', '0px');
+            $("html, body").animate({ scrollTop: $(document).height() }, 1000);
         }
-    }, 80);
+    }, 200);
 }
 
 Array.prototype.random = function () {
