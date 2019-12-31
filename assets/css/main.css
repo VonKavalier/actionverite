@@ -26,12 +26,16 @@
     color: #fff;
     background-color: #17a2b8;
     border-color: #17a2b8;
+
+    display: none;
 }
 
 .btn-blue-medium {
     color: #fff;
     background-color: #1783b8;
     border-color: #1783b8;
+    
+    display: none;
 }
 
 .btn-blue-hard {
@@ -44,12 +48,16 @@
     color: #000;
     background-color: #eae600;
     border-color: #eae600;
+
+    display: none;
 }
 
 .btn-orange-medium {
     color: #fff;
     background-color: #ea9a00;
     border-color: #ea9a00;
+
+    display: none;
 }
 
 .btn-orange-hard {
