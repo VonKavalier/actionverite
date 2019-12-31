@@ -112,14 +112,34 @@ var verite_medium = [
 ];
 
 var verite_hard = [
-
-    'Non dolorem saepe et voluptatibus deserunt deserunt quae a. Dignissimos eaque asperiores nam sint. Alias aut non quasi. Accusantium vitae eum esse ratione aliquid non voluptas et.',
-
-    'Consequatur nihil quisquam eum rerum dolorem totam sed. Enim voluptatem voluptatem ipsa deleniti dicta. Nisi aut laboriosam laboriosam qui ipsa aut omnis. Consequatur voluptatem tenetur tempora non. Incidunt odio est aliquid deleniti qui.',
-
-    'Repellat earum sunt voluptates. Dolorem libero vero iste quidem inventore id quod. Quis assumenda rem suscipit.',
-
-    'Repellendus nemo aut earum eaque aut quod. Voluptatem recusandae fugit eligendi dolorem. Qui sint reiciendis itaque rerum nam officiis et. Dolores voluptatem et deserunt vitae molestiae. Voluptas ut et autem nesciunt ab eos.',
-
-    'Voluptatibus animi itaque voluptate itaque aut perferendis consequatur aliquid. Non cupiditate iure dignissimos natus placeat voluptatum quo expedita. Aut porro autem autem.'
+    'Quel fantasme sexuel aimeriez-vous réaliser avec un(e) autre joueur(-euse) (hormis votre partenaire) sans le/la nommer ?',
+    'Quel a été le pet le plus gênant de votre vie ?',
+    'Avouez à la personne la plus proche de vous ce que vous détestez le plus chez elle.',
+    'Quelle est la personne avec laquelle vous avez eu le plus de plaisir sexuel ?',
+    'De qui avez-vous été content d\'apprendre la mort ou de qui attendez vous impatiemment la mort ?',
+    'Racontez la dernière fois où faire l\'amour vous a dégoûté(e) ?',
+    'Racontez la dernière occasion où vous avez fait preuve de lâcheté.',
+    'Quels fantsames ou images perverses vous inspire une tombe ?',
+    'Quel a été votre pire acte de froide vengance ?',
+    'Racontez l\'un de vos cauchemars, suffisamment atroce pour effrayer les autres joueurs.',
+    'Sur qui avez-vous déjà craché, vomi ou uriné ?',
+    'Quel acte exuel vous est-il déjà arrivé de refuser d\'accomplir ou de subir ?',
+    'Racontez la dernière fois où vous vous êtes soulé(e) et vous êtes mis(e) devant témoins dans un état minable ?',
+    'Quelles histoires vous inspire une serviette hygiénique usagée ?',
+    'Quel est le nombre maximum de partenaires sexuels que vous ayez eu à la fois ?',
+    'Quelle est la chose la plus sale ou antimorale qui vous excite ?',
+    'Racontez la pire occasion où vous avez fait souffrir consciemment un animal.',
+    'Dans quelle position jouissez-vous le plus fort ?',
+    'Préféreriez-vous faire l\'amour avec un cadavre humain ou un cochon bien vivant ?',
+    'Quelle est la mort la plsu atroce que vous pourriez souhaiter à une personne que vous détestez ?',
+    'Dans quels orifices humains avez-vous déjà introduit votre langue ?',
+    'Quelle histoire, délicatement parfumée, vous inspire une dragée Fuca ?',
+    'Avec quel légume, ou autre aliment, vous êtes vous déjà masturbé ?',
+    'Quelle était la consistance de vos dernières selles ?',
+    'Quelle est la partie de votre corps la plus érotique ?',
+    'Quel fut votre plus grand moment de solitude ?',
+    'Racontez un coup d\'un soir que vous avez immédiatement regretté.',
+    'Si vous faisiez un ménage à trois, qui choisiriez-vous comme partenaires ?',
+    'Quelle est la longueur de votre pénis ? Si vous n\'en avez pas, quelle est celle du pénis de voyre partenaire ? (Si vous n\'en avez pas effectuez une action)?',
+    'Quelle drogue consommez-vous le plus ?',
 ];
