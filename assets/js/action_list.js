@@ -47,7 +47,6 @@ var action_hard = [
     'Rendez-vous dans les toilettes, prenez la balayette et récurez bien la cuvette.',
     'Jouez au docteur : pissez dans un flacon et confiez-le à un autre joueur, qui l\'examinera doctement.',
     'Mettez-vous en slip et courrez à travers la piece en criant VROUM !',
-    'Laissez les autres joueurs vous planter leur fourchette où ils le veulent (chacun deux fois)',
     'Lisez l\'extrait suivant à la manière de Bernard Pivot (La Dictée) : "Ouille-ouille-ouille, qu\'est-ce que j\'ai mal aux couilles. [...] Aïe-aïe-aïe, j\'ai le trou du cul qui baille [...]. Toutes ces petites galères sont les aléas de l\'amour.".',
     'Présentez le produit suivant, comme dans une émission de télé-achat : Le godemichet téléscopique "pop-up".',
     'Epeler à l\'envers les prénoms de tous les autres joueurs.',

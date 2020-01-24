@@ -15,15 +15,15 @@
             <div class="card-deck row-cols-1 row-cols-md-2 mb-3">
                 <div class="card border-warning">
                     <div class="card-header">Action</div>
-                    <div class="card-body row">
-                        <div class="col-sm">
-                            <button type="button" class="btn-perso btn-orange-soft" id="" onclick="get_gage(action_soft)">(1) Action Soft</button>
+                    <div class="card-body row justify-content-between">
+                        <div class="col-sm-4">
+                            <button type="button" class="btn-perso btn-orange-soft btn-block" onclick="get_gage(action_soft)">(1) Soft</button>
                         </div>
-                        <div class="col-sm">
-                            <button type="button" class="btn-perso btn-orange-medium" onclick="get_gage(action_medium)">(2) Action Medium</button>
+                        <div class="col-sm-4">
+                            <button type="button" class="btn-perso btn-orange-medium btn-block" onclick="get_gage(action_medium)">(2) Medium</button>
                         </div>
-                        <div class="col-sm">
-                            <button type="button" class="btn-perso btn-orange-hard" onclick="get_gage(action_hard)">(3) Action Hard</button>
+                        <div class="col-sm-4">
+                            <button type="button" class="btn-perso btn-orange-hard btn-block" onclick="get_gage(action_hard)">(3) Hard</button>
                         </div>
                     </div>
                 </div>
@@ -31,13 +31,13 @@
                     <div class="card-header">Vérité</div>
                     <div class="card-body row">
                         <div class="col-sm">
-                            <button type="button" class="btn-perso btn-blue-soft" onclick="get_gage(verite_soft)">(4) Vérité Soft</button>
+                            <button type="button" class="btn-perso btn-blue-soft btn-block" onclick="get_gage(verite_soft)">(4) Soft</button>
                         </div>
                         <div class="col-sm">
-                            <button type="button" class="btn-perso btn-blue-medium" onclick="get_gage(verite_medium)">(5) Vérité Medium</button>
+                            <button type="button" class="btn-perso btn-blue-medium btn-block" onclick="get_gage(verite_medium)">(5) Medium</button>
                         </div>
                         <div class="col-sm">
-                            <button type="button" class="btn-perso btn-blue-hard" onclick="get_gage(verite_hard)">(6) Vérité Hard</button>
+                            <button type="button" class="btn-perso btn-blue-hard btn-block" onclick="get_gage(verite_hard)">(6) Hard</button>
                         </div>
                     </div>
                 </div>
@@ -50,6 +50,7 @@
                     <div id="gages">
                         <div id="gage1" class="alert alert-secondary" role="alert"></div>
                         <h4 class="text-center">OU</h4>
+                        <button type="button" id="button-gage2" class="btn-perso btn-default" onclick="show_gage2()">Afficher le deuxième gage</button>
                         <div id="gage2" class="alert alert-secondary" role="alert"></div>
                     </div>
                     <div class="progress" style="height: 30px;">

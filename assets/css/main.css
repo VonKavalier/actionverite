@@ -2,6 +2,10 @@
     display: none;
 }
 
+#gage2 {
+    display: none;
+}
+
 .btn-perso {
     display: inline-block;
     font-weight: 400;
@@ -20,6 +24,16 @@
     line-height: 1.5;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-perso:disabled {
+    opacity: .65;
+}
+
+.btn-default {
+    color: #e2e3e5;
+    background-color: #343a40;
+    border-color: #e2e3e5;
 }
 
 .btn-blue-soft {
@@ -41,9 +55,9 @@
 }
 
 .btn-orange-soft {
-    color: #000;
-    background-color: #eae600;
-    border-color: #eae600;
+    color: #fff;
+    background-color: #d5d100;
+    border-color: #d5d100;
 }
 
 .btn-orange-medium {
