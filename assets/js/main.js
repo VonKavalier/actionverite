@@ -19,7 +19,7 @@ function get_gage(list){
         $('.progress-bar').css('width', percent + '%');
         $('.progress-bar').html(loadingMessage + " " + percent + '%');
 
-        if (percent >= 100) {
+        if (percent >= 120) {
             clearInterval(timerId); 
             $('.progress').hide();
             $('#gages').show();
@@ -29,7 +29,7 @@ function get_gage(list){
             $('.progress-bar').css('width', '0px');
             $("html, body").animate({ scrollTop: $(document).height() }, 1000);
         }
-    }, 200);
+    }, 100);
 }
 
 Array.prototype.random = function () {
