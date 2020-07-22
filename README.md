@@ -3,6 +3,4 @@ Action / Vérité basique. Simplement pour avoir un support plus pratique que ce
 
 ## À faire
 
-- [ ] Rajouter les gages
-- [x] Fonctionnalité pour afficher 2 gages en même temps, pour que le joueur en choisisse un des 2
-- [x] Utiliser un bouton reset (Reset automatique, pas besoin d'un bouton pour ça)
+- [ ] Rajouter les derniers gages
